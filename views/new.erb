@@ -1,0 +1,33 @@
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <form action="/create" accept-charset="UTF-8" method="post">
+              <div class="form-group row">
+                <label for="fioText" class="col-md-5 col-form-label">ФИО ребенка(полностью)</label>
+                <div class="col-md-7">
+                  <input type="text" class="form-control" name="fio_child" id="fioText" placeholder value required>
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="birthDate" class="col-md-5 col-form-label">Дата рождения</label>
+                <div class="col-md-3">
+                  <input class="form-control" type="text" name="birthdate" id="birthDate" placeholder value="" required>
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="docText" class="col-md-5 col-form-label">Документ(серия,номер)</label>
+                <div class="col-md-3">
+                  <input type="text" class="form-control" name="doc_text" id="docText" placeholder value required>
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="fioParentText" class="col-md-5 col-form-label">ФИО представителя(полностью)</label>
+                <div class="col-md-7">
+                  <input type="text" class="form-control" name="fio_parent" id="fioParentText" placeholder value required>
+                </div>
+              </div>
+              <div class="d-flex flex-column col-auto align-items-end px-0">
+                <button type="submit" class="btn btn-primary ">Сохранить</button>
+              </div>  
+            </form>
+          </div>
+        </div>
